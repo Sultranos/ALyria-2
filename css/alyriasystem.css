@@ -1,0 +1,28 @@
+/* Fichier CSS de base pour le système Alyria */
+
+.alyriapopup .window-content {
+  background: #232323;
+  color: #e0e0e0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.1em;
+  border-radius: 8px;
+  padding: 1em;
+}
+.alyriapopup h2.arme-nom {
+  color: #ffd700;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
+  text-shadow: 1px 1px 2px #000;
+}
+.alyriapopup ul {
+  margin: 0.2em 0 0.5em 1em;
+  padding: 0;
+}
+.alyriapopup li {
+  margin-bottom: 0.2em;
+}
+.alyriapopup .arme-valeur {
+  color: #ffd700;
+  font-weight: bold;
+}

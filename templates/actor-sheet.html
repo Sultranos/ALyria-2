@@ -1,0 +1,42 @@
+<!-- Template de base pour une fiche d'acteur Alyria -->
+<form class="{{cssClass}}" autocomplete="off">
+    <img src="{{actor.image.img}}" data-edit="image" title="{{actor.name}}" height="128" width="128"/>
+    <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Nom de l'acteur"/></h1>
+    <p>Mon Personnage</p>
+    <div class="Majeures">
+        <label>Force
+            <input name="data.Force" type="number" value="{{actor.data.Force}}" placeholder="Force"/>
+        </label>
+        <label>Dexterite
+            <input name="data.Dexterite" type="number" value="{{actor.data.Dexterite}}" placeholder="Dexterite"/>
+        </label>
+        <label>Constitution
+            <input name="data.Constitution" type="number" value="{{actor.data.Constitution}}" placeholder="Constitution"/>
+        </label>
+        <label>Intelligence
+            <input name="data.Intelligence" type="number" value="{{actor.data.Intelligence}}" placeholder="Intelligence"/>
+        </label>
+        <label>Sagesse
+            <input name="data.Sagesse" type="number" value="{{actor.data.Sagesse}}" placeholder="Sagesse"/> 
+        </label>
+        <label>Charisme
+            <input name="data.Charisme" type="number" value="{{actor.data.Charisme}}" placeholder="Charisme"/>
+        </label>
+        <label>Chance
+            <input name="data.Chance" type="number" value="{{actor.data.Chance}}" placeholder="Chance"/>
+        </label>
+        <label>Defence
+            <input name="data.Defence" type="number" value="{{actor.data.Defence}}" placeholder="Défense"/>
+        </label>
+    </div>
+    <div class="Etat">
+        <label>Points de vie
+            <input name="data.PointsVie" type="number" value="{{actor.data.PointsVie}}" placeholder="Points de vie"/>
+        </label>
+        <label> Points de Psyqué
+            <input name="data.PointsPsy" type="number" value="{{actor.data.PointsPsy}}" placeholder="Points de Psyqué"/>
+
+        </label>
+    </div>
+    
+</form>
