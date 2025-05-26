@@ -1,3 +1,7 @@
+Quote:
+"Olala mais qu'est ce que c'est que cette sorcellerie"
+
+
 # Alyria System pour Foundry VTT
 
 Ce projet est un système de base pour Foundry VTT. Il inclut :
